@@ -11,6 +11,7 @@ import React from 'react';
 import gql from 'graphql-tag';
 import { withApollo, graphql } from 'react-apollo';
 
+import {Button} from '../components/button.jsx';
 import {Navbar, NavLink, NavBrand, NavUser, NavUserLink, NavUserSeparator, NavUserActionButton} from '../components/navbar.jsx';
 import {AppLogo_0} from '../components/app-logo.jsx';
 
@@ -46,6 +47,26 @@ class __Home__ extends React.Component {
 				<main>
 					<div>
 						{this.props.demo ? this.props.demo.message : null}
+					</div>
+					<div className="row">
+						<div className="col s6 l2 no-padding">
+							<Button  style="default" text="style Default" />
+						</div>
+						<div className="col s6 l2 no-padding">
+							<Button  style="blue" text="style Blue" />
+						</div>
+						<div className="col s6 l2 no-padding" >
+							<Button  style="green" text="style Green" />
+						</div>
+						<div className="col s6 l2 no-padding" >
+							<Button  style="red" text="style Red" />
+						</div>
+						<div className="col s6 l2 no-padding" >
+							<Button  style="black" text="style Black" />
+						</div>
+						<div className="col s6 l2 no-padding" >
+							<Button  text="Desabilitado" disabled />
+						</div>
 					</div>
 				</main>
 				<footer></footer>
