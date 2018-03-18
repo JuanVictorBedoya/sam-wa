@@ -32,7 +32,7 @@ class __Home__ extends React.Component {
 			<div>
 				<header>
 					<Navbar >
-						<NavBrand logoComponent={AppLogo_0} logoStyle={{height: '20px', width: '20px', padding: '0.6rem'}}/>
+						<NavBrand logoComponent={AppLogo_0} logoStyle={{height: '25px', width: '25px', padding: '0.4rem'}}/>
 						<NavLink linkName="INICIO"/>
 						<NavLink linkName="PERFIL"/>
 						<NavLink linkName="DOCUMENTOS"/>

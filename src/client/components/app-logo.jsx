@@ -14,49 +14,20 @@ class AppLogo_0 extends React.Component {
 	}
 
 	render() {
-		let pathstyle = {fill:'none', stroke:'url(#linearGradient1000'+this.props.id+')', strokeWidth:2.5, strokeLinecap:'butt', strokeLinejoin:'miter', strokeMiterlimit:4, strokeDasharray:'none', strokeOpacity:1};
-		let svgdefsstr = '<linearGradient id="linearGradient998'+this.props.id+'"><stop offset="0" style="stop-color:#6a389b;stop-opacity:0.98895025"/><stop style="stop-color:#1292ad;stop-opacity:1" offset="0.7500695"/><stop offset="1" style="stop-color:#22b9ce;stop-opacity:1"/></linearGradient><linearGradient gradientUnits="userSpaceOnUse" y2="68.224701" x2="52.538692" y1="11.528274" x1="52.72768" id="linearGradient1000'+this.props.id+'" xlink:href="#linearGradient998'+this.props.id+'"/>';
-
 		return (
-			<svg viewBox="0 0 31.220833 33.866668" style={this.props.style}>
-				<defs dangerouslySetInnerHTML={{__html:svgdefsstr}}></defs>
-				<g
-					style={{display: 'inline'}}
-					transform="translate(0 -263.13)">
-					<g style={{strokeWidth:1, strokeMiterlimit:4, strokeDasharray:'none'}}
-						transform="matrix(.57867 0 0 .58471 -14.783 256.77)">
-						<g style={{stroke:'url(#linearGradient1000'+this.props.id+')'}}>
-							<path
-								d="m26.458 53.862-0.18899-27.97 26.458-14.363 26.08 14.552v27.781l-26.269 14.363z"
-								style={pathstyle}/>
-							<path
-								d="m26.458 53.862 13.04-6.9926 25.891 14.363"
-								style={pathstyle}/>
-							<path
-								d="m78.808 53.862-13.229-7.1815-25.702 14.363"
-								style={pathstyle}/>
-							<path
-								d="m26.269 39.499 26.269-13.607 26.08 13.607"
-								style={pathstyle}/>
-							<path
-								d="m39.499 46.869-0.37798-28.159"
-								style={pathstyle}/>
-							<path
-								d="m65.579 46.68 0.18899-27.781"
-								style={pathstyle}/>
-							<path
-								d="m52.539 25.891 0.18899-14.363"
-								style={pathstyle}/>
-							<path
-								d="m39.121 32.506 13.796 7.3705 13.04-7.1815"
-								style={pathstyle}/>
-							<path
-								d="m52.917 39.876-0.37798 14.174"
-								style={pathstyle}/>
-						</g>
-					</g>
-				</g>
-			</svg>
+			<svg width="75mm" height="75mm" enable-background="new" version="1.1" viewBox="0 0 75 75" style={this.props.style} >
+			<g transform="translate(0,-222)">
+			 <g transform="translate(-36.176 119.69)">
+			  <path d="m109.46 141.58a34.207 35.152 0 0 1 -34.204 35.152 34.207 35.152 0 0 1 -34.209 -35.147 34.207 35.152 0 0 1 34.199 -35.157 34.207 35.152 0 0 1 34.214 35.141l-34.207 0.0105z" fill="#12a2d8" stroke="#2d77a0" stroke-opacity=".62983" stroke-width=".065"/>
+			  <g>
+			   <path d="m43.699 127.28s5.6127-12.027 17.373-17.773l28.731 28.598s-11.893 3.7418-17.64 17.373c0.13363 0-28.464-28.197-28.464-28.197z" fill="#2d2d2d" stroke="#000" stroke-width=".065"/>
+			   <path d="m72.163 155.48 9.9558 2.3386s3.4077-7.5504 9.0872-9.5549c0.06682 0-1.4032-10.156-1.4032-10.156s-12.094 3.8754-17.64 17.373z" fill="#fff" stroke="#fff" stroke-width=".065"/>
+			   <path d="m82.119 157.82s2.7729-6.7486 9.0872-9.5549c2e-6 -0.0668 1.3039 11.719 1.3039 11.719z" fill="#2d2d2d" stroke="#2d2d2d" stroke-width=".1"/>
+			   <path d="m43.699 127.28-6.8154-6.949s4.4099-12.361 17.573-17.573c-0.20045 0 6.6149 6.7486 6.6149 6.7486s-10.891 4.6104-17.373 17.773z" fill="#12a2d8" stroke="#12a2d8" stroke-width=".065"/>
+			  </g>
+			 </g>
+			</g>
+		   </svg>
 		);
 	}
 }
