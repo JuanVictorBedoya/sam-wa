@@ -17,6 +17,8 @@ import {setContext} from 'apollo-link-context';
 import {InMemoryCache} from 'apollo-cache-inmemory';
 
 import Home from '../views/home.jsx';
+import Profile from '../views/profile.jsx';
+import SignIn from '../views/signin.jsx';
 
 import config from './config';
 
@@ -67,7 +69,7 @@ class App {
 			<ApolloProvider client={this.client}>
 				<BrowserRouter>
 					<Main>
-						<Route exact={true} path="/" component={Home}/>
+						<Route exact={true} path="/" component={Profile}/>
 					</Main>
 				</BrowserRouter>
 			</ApolloProvider>,

@@ -81,7 +81,7 @@ class NavUser extends React.Component {
                     <div ref="userOpt" className="nav-user-dropdown arrow-up">
 						<div className="dropdown-boxarrow-up"></div>
 						<div className="nav-user-name">
-							<div style={{padding: '0rem 0rem 0.3rem 0rem'}}>Registrado como</div>
+							<div style={{padding: '0rem 0rem 0.3rem 0rem', textAlign:'left'}}>Registrado como</div>
                             <b>{this.props.user}</b>
 						</div>
                         <hr className="nav-user-separator"/>
@@ -100,7 +100,7 @@ class NavUserLink extends React.Component {
 
 	render() {
 		return (
-			<a className="nav-user-link">
+			<a className="nav-user-link" >
 				<span>{this.props.text}</span>
 			</a>
 		);

@@ -43,6 +43,7 @@ nav {
             }
             
             .nav-user {
+				
 				padding: 0.6rem;
             }
             
@@ -114,7 +115,12 @@ nav {
 				.nav-user-link {
 					display: block;
                     padding: 0.4rem 1rem;
-                    font-size: small;
+					font-size: small;
+					color: black;
+				}
+
+				.nav-user-link:hover {
+					text-decoration:none;
 				}
 
 				.nav-user-name {
@@ -141,6 +147,24 @@ nav {
 		}
     }
 
+	@media screen and (max-width : 500px) 
+	{	
+		height: 5rem;
+		ul.nav-wrapper {		
+			li {
+				float: none;
+				text-align:center;
+				.nav-link {
+					float: left;
+				}
+				.nav-user-dropdown {
+					top: 4.7rem;
+					right: 4%;
+				}
+			}
+		}	
+	}
+
     @media #{$medium-and-up} {
 		ul.nav-wrapper {
 			width: 85%;
@@ -163,4 +187,8 @@ nav {
 			}
 		}
 	}
+}
+
+.logo-style {
+
 }
