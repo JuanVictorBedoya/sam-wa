@@ -6,7 +6,7 @@
 
 import React from 'react';
 
-import NavbarStyle from '../styles/button.scss';
+import ButtonStyle from '../styles/button.scss';
 
 /****************************************************************************************/
 
